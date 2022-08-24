@@ -4,7 +4,6 @@ WORKDIR /app
 USER root
 # Install python packages
 RUN python -m pip install --upgrade pip
-RUN pip install gunicorn
 RUN chmod -R 777 /app
 
 COPY requirements.txt /app
@@ -13,5 +12,5 @@ COPY . /app
 ENV PYTHONPATH "/app"
 
 EXPOSE 3001
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
 #CMD ["sh", "start.sh"]

@@ -1,8 +1,8 @@
-from data_models.base import BaseMode
-from __main__ import db, api
+from apis import db, api
+from apis.data_models.base import BaseMode
 from flask_restx import fields
 
-country_params = api.model(
+country_details = api.model(
     'Country',
     {
         'id': fields.Integer(),
@@ -26,16 +26,30 @@ country_params = api.model(
     }
 )
 
+country = api.model(
+    'Country',
+    {
+        'id': fields.Integer(),
+        'recovered': fields.String(required=True),
+        'deaths': fields.String(required=True),
+        'confirmed': fields.String(required=True),
+        'country': fields.String(required=True),
+        'population': fields.String(required=True),
+        'capital_city': fields.String(required=True),
+        'updated': fields.String(required=True)
+    }
+)
+
 
 class CountryModel(BaseMode, db.Model):
     __tablename__ = 'country'
     id = db.Column(db.Integer(), primary_key=True)
     country = db.Column(db.String(200), nullable=True)
-    recovered = db.Column(db.String(200), nullable=True)
-    confirmed = db.Column(db.String(200), nullable=True)
-    deaths = db.Column(db.String(200), nullable=True)
-    population = db.Column(db.Integer, nullable=True)
-    sq_km_area = db.Column(db.Integer, nullable=True)
+    recovered = db.Column(db.BigInteger(), nullable=True)
+    confirmed = db.Column(db.BigInteger(), nullable=True)
+    deaths = db.Column(db.BigInteger(), nullable=True)
+    population = db.Column(db.BigInteger(), nullable=True)
+    sq_km_area = db.Column(db.BigInteger(), nullable=True)
     life_expectancy = db.Column(db.String(80), nullable=True)
     elevation_in_meters = db.Column(db.String(80), nullable=True)
     continent = db.Column(db.String(80), nullable=True)

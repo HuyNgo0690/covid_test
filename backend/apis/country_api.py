@@ -1,22 +1,21 @@
-from __main__ import api, db
-
 from flask import request
-from flask_restx import Resource, abort
-from sqlalchemy.exc import IntegrityError
+from flask_restx import Resource
 
-from data_models.country_model import country_params, CountryModel
+from apis import api, db
+from apis.data_models.country_model import CountryModel, country_details, country
+from error_handler import HandleExceptions
 
 
 class Countries(Resource):
-    @api.marshal_list_with(country_params, code=200, envelope="Countries")
+    @api.marshal_list_with(country_details, code=200, envelope="Countries", description="Get all countries")
     def get(self):
-        ''' Get all countries '''
+        """ Get all countries """
         countries = CountryModel.query.all()
         return countries
 
-    @api.marshal_with(country_params, code=201, envelope="country")
+    @api.marshal_with(country, code=201, envelope="country")
     def post(self):
-        ''' Create a new country '''
+        """ Create a new country """
         try:
             all_info = request.get_json()
             new_country = CountryModel()
@@ -24,35 +23,53 @@ class Countries(Resource):
             db.session.add(new_country)
             db.session.commit()
             return new_country
-        except IntegrityError:
-            abort(400, "Country exist !!!")
+        except Exception as err:
+            return HandleExceptions().exception_to_http_response(err)
 
 
 class CountryResource(Resource):
-    @api.marshal_with(country_params, code=201, envelope="country")
+    @api.marshal_with(country_details, code=201, envelope="country")
     def put(self, _id):
+        """Update country"""
         try:
-            country = CountryModel.query.get_or_404(_id)
+            _country = CountryModel.query.get_or_404(_id)
             data = request.get_json()
-            country.set_data(data)
+            _country.set_data(data)
             db.session.commit()
-            return country, 200
-        except Exception:
-            abort(400, "Unexpected error")
+            return _country, 200
+        except Exception as err:
+            return HandleExceptions().exception_to_http_response(err)
 
-    @api.marshal_with(country_params, code=201, envelope="country")
+    @api.marshal_with(country_details, code=201, envelope="country")
     def get(self, _id):
+        """Get country by id"""
         try:
-            country = CountryModel.query.get_or_404(_id)
-            return country, 200
-        except Exception:
-            abort(400, "Unexpected error")
+            _country = CountryModel.query.get_or_404(_id)
+            return _country, 200
+        except Exception as err:
+            return HandleExceptions().exception_to_http_response(err)
 
-    @api.marshal_with(country_params, envelope="country_deleted", code=200)
+    @api.marshal_with(country_details, envelope="country_deleted", code=200)
     def delete(self, _id):
-        '''Delete a country'''
+        """Delete a country"""
+        try:
+            country_to_delete = CountryModel.query.get_or_404(_id)
+            db.session.delete(country_to_delete)
+            db.session.commit()
+            return country_to_delete, 200
+        except Exception as err:
+            return HandleExceptions().exception_to_http_response(err)
 
-        country_to_delete = CountryModel.query.get_or_404(id)
-        db.session.delete(country_to_delete)
-        db.session.commit()
-        return country_to_delete, 200
+
+class CountrySearch(Resource):
+    @api.marshal_list_with(country_details, code=200, envelope="Countries")
+    def get(self):
+        """Search country by name"""
+        try:
+            data = request.args.to_dict()
+            name = data.values()
+            search = f"%{','.join(name)}%"
+            country_detail = CountryModel.query.filter(CountryModel.country.like(search)).all()
+            return country_detail
+        except Exception as err:
+            return HandleExceptions().exception_to_http_response(err)
