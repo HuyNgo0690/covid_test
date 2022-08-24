@@ -1,0 +1,17 @@
+apps 2022-08-24 10:11:03,037 - INFO     - [app.py:45] - Backend server start at 2022-08-24 10:11:03.037601
+apps 2022-08-24 10:11:04,552 - INFO     - [app.py:45] - Backend server start at 2022-08-24 10:11:04.552459
+apps 2022-08-24 10:11:41,953 - INFO     - [app.py:46] - Backend server start at 2022-08-24 10:11:41.953161
+apps 2022-08-24 10:11:42,070 - INFO     - [app.py:46] - Backend server start at 2022-08-24 10:11:42.070834
+apps 2022-08-24 10:11:44,174 - INFO     - [app.py:45] - Backend server start at 2022-08-24 10:11:44.174288
+apps 2022-08-24 10:11:46,009 - INFO     - [app.py:45] - Backend server start at 2022-08-24 10:11:46.009057
+apps 2022-08-24 03:17:31,819 - INFO     - [app.py:45] - Backend server start at 2022-08-24 03:17:31.819048
+apps 2022-08-24 03:17:32,701 - INFO     - [app.py:45] - Backend server start at 2022-08-24 03:17:32.701219
+apps 2022-08-24 10:20:27,611 - INFO     - [app.py:47] - Backend server start at 2022-08-24 10:20:27.611026
+apps 2022-08-24 10:20:29,188 - INFO     - [app.py:47] - Backend server start at 2022-08-24 10:20:29.188792
+apps 2022-08-24 11:02:21,912 - INFO     - [app.py:47] - Backend server start at 2022-08-24 11:02:21.911948
+apps 2022-08-24 11:02:25,995 - INFO     - [app.py:47] - Backend server start at 2022-08-24 11:02:25.995035
+apps 2022-08-24 11:03:00,277 - INFO     - [middleware.py:18] - Request path=<> Request host=<%s>, params=<%s>, body=<%s>
+apps 2022-08-24 11:03:11,286 - INFO     - [app.py:47] - Backend server start at 2022-08-24 11:03:11.286022
+apps 2022-08-24 11:04:55,108 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country' [GET]>
+apps 2022-08-24 11:12:29,774 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country' [POST]>
+apps 2022-08-24 11:14:33,899 - INFO     - [app.py:47] - Backend server start at 2022-08-24 11:14:33.899625

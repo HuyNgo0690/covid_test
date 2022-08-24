@@ -29,4 +29,4 @@ class RegionModel(BaseMode, db.Model):
     lat = db.Column(db.String(80), nullable=True)
     long = db.Column(db.String(80), nullable=True)
     updated = db.Column(db.String(80), nullable=True)
-    db.UniqueConstraint(region)
+    db.UniqueConstraint(country_id, region)

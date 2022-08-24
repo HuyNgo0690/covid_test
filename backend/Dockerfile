@@ -10,6 +10,8 @@ RUN chmod -R 777 /app
 COPY requirements.txt /app
 RUN pip install -r requirements.txt
 COPY . /app
+ENV PYTHONPATH "/app"
 
 EXPOSE 3001
-CMD ["sh", "start.sh"]
+CMD ["python", "app.py"]
+#CMD ["sh", "start.sh"]

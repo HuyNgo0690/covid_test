@@ -1,5 +1,5 @@
 from data_models.base import BaseMode
-from main import db, api
+from __main__ import db, api
 from flask_restx import fields
 
 country_params = api.model(
