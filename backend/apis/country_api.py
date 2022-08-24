@@ -4,7 +4,7 @@ from flask import request
 from flask_restx import Resource
 
 from apis import api, db
-from apis.data_models.country_model import CountryModel, country, country_update
+from apis.data_models.country_model import CountryModel, country_params, country_update_params
 from apis.data_models.region_model import RegionModel
 from error_handler import HandleExceptions
 
@@ -22,8 +22,8 @@ class Countries(Resource):
         except Exception as err:
             return HandleExceptions().exception_to_http_response(err)
 
-    @api.doc(body=country_update, validate=True)
-    @api.marshal_with(country, code=201, envelope="country", skip_none=True)
+    @api.doc(body=country_update_params, validate=True)
+    @api.marshal_with(country_params, code=201, envelope="country", skip_none=True)
     def post(self) -> Dict:
         """ Create a new country """
         try:
@@ -38,8 +38,8 @@ class Countries(Resource):
 
 
 class CountryResource(Resource):
-    @api.doc(body=country_update, validate=True)
-    @api.marshal_with(country_update, code=202, envelope="country", skip_none=True)
+    @api.doc(body=country_update_params, validate=True)
+    @api.marshal_with(country_update_params, code=202, envelope="country", skip_none=True)
     def put(self, country_id: int) -> Dict:
         """Update country"""
         try:
@@ -69,7 +69,7 @@ class CountryResource(Resource):
         except Exception as err:
             return HandleExceptions().exception_to_http_response(err)
 
-    @api.marshal_with(country, envelope="country_deleted", code=202)
+    @api.marshal_with(country_params, envelope="country_deleted", code=202)
     def delete(self, country_id: int) -> Dict:
         """Delete a country"""
         try:
@@ -82,7 +82,6 @@ class CountryResource(Resource):
 
 
 class CountrySearch(Resource):
-    @api.doc(params={"country_name": "Country Name"})
     def get(self) -> List:
         """Search country by name"""
         try:

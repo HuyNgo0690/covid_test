@@ -4,7 +4,7 @@ from sqlalchemy import inspect
 from apis import db, api
 from apis.data_models.base import BaseMode
 
-country = api.model(
+country_params = api.model(
     'Country',
     {
         'id': fields.Integer(),
@@ -27,7 +27,7 @@ country = api.model(
     }
 )
 
-country_update = api.model(
+country_update_params = api.model(
     'Country',
     {
         'recovered': fields.Integer(required=True, min=0),
