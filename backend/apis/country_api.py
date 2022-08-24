@@ -1,25 +1,30 @@
-from typing import Dict
+from typing import Dict, List
 
 from flask import request
 from flask_restx import Resource
 
 from apis import api, db
-from apis.data_models.country_model import CountryModel, country
+from apis.data_models.country_model import CountryModel, country, country_update
 from apis.data_models.region_model import RegionModel
 from error_handler import HandleExceptions
 
 
 class Countries(Resource):
-    @api.marshal_list_with(country, code=200, envelope="Countries", description="Get all countries")
-    @api.response(400, 'Error')
-    def get(self):
+    def get(self) -> List:
         """ Get all countries """
-        countries = CountryModel.query.all()
-        return countries
+        try:
+            countries = CountryModel.query.all()
+            countries = CountryModel.serialize_list(countries)
+            data_return = {
+                "Countries": countries
+            }
+            return data_return
+        except Exception as err:
+            return HandleExceptions().exception_to_http_response(err)
 
-    @api.doc(body=country, validate=True)
-    @api.marshal_with(country, code=201, envelope="country")
-    def post(self):
+    @api.doc(body=country_update, validate=True)
+    @api.marshal_with(country, code=201, envelope="country", skip_none=True)
+    def post(self) -> Dict:
         """ Create a new country """
         try:
             all_info = request.get_json()
@@ -33,8 +38,8 @@ class Countries(Resource):
 
 
 class CountryResource(Resource):
-    @api.doc(body=country, validate=True)
-    @api.marshal_with(country, code=202, envelope="country")
+    @api.doc(body=country_update, validate=True)
+    @api.marshal_with(country_update, code=202, envelope="country", skip_none=True)
     def put(self, country_id: int) -> Dict:
         """Update country"""
         try:
@@ -51,11 +56,13 @@ class CountryResource(Resource):
         try:
             _country = CountryModel.query.filter(CountryModel.id == country_id).first()
             if _country:
-                data_return = _country.serialize()
+                data_return = {
+                    "Country": _country.serialize()
+                }
                 region_list = RegionModel.query.filter(RegionModel.country_id == country_id).all()
                 if region_list:
                     region_list = RegionModel.serialize_list(region_list)
-                    data_return["regions"] = region_list
+                    data_return["Country"]["regions"] = region_list
                 return data_return
             else:
                 return {"message": "Country not found"}
@@ -75,15 +82,18 @@ class CountryResource(Resource):
 
 
 class CountrySearch(Resource):
-    @api.marshal_list_with(country, code=200, envelope="Countries")
     @api.doc(params={"country_name": "Country Name"})
-    def get(self):
+    def get(self) -> List:
         """Search country by name"""
         try:
             data = request.args.to_dict()
             name = data.values()
             search = f"%{','.join(name)}%"
-            country_detail = CountryModel.query.filter(CountryModel.country.like(search)).all()
-            return country_detail
+            country_detail = CountryModel.query.filter(CountryModel.country.ilike(search)).all()
+            country_detail = CountryModel.serialize_list(country_detail)
+            data_return = {
+                "Countries": country_detail
+            }
+            return data_return
         except Exception as err:
             return HandleExceptions().exception_to_http_response(err)

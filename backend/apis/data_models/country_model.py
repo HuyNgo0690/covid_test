@@ -11,19 +11,41 @@ country = api.model(
         'recovered': fields.Integer(required=True, min=0),
         'deaths': fields.Integer(required=True, min=0),
         'confirmed': fields.Integer(required=True, min=0),
-        'country': fields.String(required=False),
-        'population': fields.Integer(required=False),
-        'sq_km_area': fields.Integer(required=False),
-        'life_expectancy': fields.String(required=False),
-        'elevation_in_meters': fields.String(required=False),
-        'continent': fields.String(required=False),
-        'abbreviation': fields.String(required=False),
-        'location': fields.String(required=False),
-        'iso': fields.Integer(required=False),
-        'capital_city': fields.String(required=False),
-        'lat': fields.String(required=False),
-        'long': fields.String(required=False),
-        'updated': fields.String(required=False)
+        'country': fields.String(required=False, default=""),
+        'population': fields.Integer(required=False, default=""),
+        'sq_km_area': fields.Integer(required=False, default=""),
+        'life_expectancy': fields.String(required=False, default=""),
+        'elevation_in_meters': fields.String(required=False, default=""),
+        'continent': fields.String(required=False, default=""),
+        'abbreviation': fields.String(required=False, default=""),
+        'location': fields.String(required=False, default=""),
+        'iso': fields.Integer(required=False, default=""),
+        'capital_city': fields.String(required=False, default=""),
+        'lat': fields.String(required=False, default=""),
+        'long': fields.String(required=False, default=""),
+        'updated': fields.String(required=False, default="")
+    }
+)
+
+country_update = api.model(
+    'Country',
+    {
+        'recovered': fields.Integer(required=True, min=0),
+        'deaths': fields.Integer(required=True, min=0),
+        'confirmed': fields.Integer(required=True, min=0),
+        'country': fields.String(required=False, default=""),
+        'population': fields.Integer(required=False, default=""),
+        'sq_km_area': fields.Integer(required=False, default=""),
+        'life_expectancy': fields.String(required=False, default=""),
+        'elevation_in_meters': fields.String(required=False, default=""),
+        'continent': fields.String(required=False, default=""),
+        'abbreviation': fields.String(required=False, default=""),
+        'location': fields.String(required=False, default=""),
+        'iso': fields.Integer(required=False, default=""),
+        'capital_city': fields.String(required=False, default=""),
+        'lat': fields.String(required=False, default=""),
+        'long': fields.String(required=False, default=""),
+        'updated': fields.String(required=False, default="")
     }
 )
 

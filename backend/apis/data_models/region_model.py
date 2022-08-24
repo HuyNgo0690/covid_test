@@ -1,19 +1,33 @@
 from apis import db, api
 from flask_restx import fields
 from apis.data_models.base import BaseMode
+from typing import List, Dict
+
 
 region_params = api.model(
     'Region',
     {
         'id': fields.Integer(),
-        'region': fields.String(required=False),
+        'region': fields.String(required=False, default=""),
         'recovered': fields.Integer(required=True),
         'deaths': fields.Integer(required=True),
         'confirmed': fields.Integer(required=True),
-        'country_id': fields.Integer(),
-        'lat': fields.String(required=False),
-        'long': fields.String(required=False),
-        'updated': fields.String(required=False)
+        'lat': fields.String(required=False, default=""),
+        'long': fields.String(required=False, default=""),
+        'updated': fields.String(required=False, default="")
+    }
+)
+
+region_update_params = api.model(
+    'Region',
+    {
+        'region': fields.String(required=False, default=""),
+        'recovered': fields.Integer(required=True),
+        'deaths': fields.Integer(required=True),
+        'confirmed': fields.Integer(required=True),
+        'lat': fields.String(required=False, default=""),
+        'long': fields.String(required=False, default=""),
+        'updated': fields.String(required=False, default="")
     }
 )
 
