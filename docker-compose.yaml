@@ -1,20 +1,19 @@
 version: '3.8'
 services:
-  app:
+  backend:
     build:
-      context: app
+      context: backend
       dockerfile: Dockerfile
-    container_name: app
-    image: app
+    container_name: backend
+    image: backend
     restart: unless-stopped
-    env_file: ./sample.env
+    env_file: ./backend/app.env
     volumes:
-      - ./backend/log:/app/log
+      - ./backend/logs:/app/logs
     depends_on:
       - postgresdb
     ports:
-      - "5000:5000"
-      - "5556:5556"
+      - "3001:3001"
     networks:
       - backend
 
@@ -27,9 +26,8 @@ services:
     restart: unless-stopped
     volumes:
       - postgresvolume:/var/lib/postgresql/data
-      - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
     env_file: 
-      - ./sample.env
+      - ./db/db.env
     ports:
       - "5432:5432"
     networks:
