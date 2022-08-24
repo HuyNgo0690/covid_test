@@ -1,5 +1,4 @@
 from flask_restx import fields
-from sqlalchemy import inspect
 
 from apis import db, api
 from apis.data_models.base import BaseMode
@@ -11,19 +10,19 @@ country_params = api.model(
         'recovered': fields.Integer(required=True, min=0),
         'deaths': fields.Integer(required=True, min=0),
         'confirmed': fields.Integer(required=True, min=0),
-        'country': fields.String(required=False, default=""),
-        'population': fields.Integer(required=False, default=""),
-        'sq_km_area': fields.Integer(required=False, default=""),
-        'life_expectancy': fields.String(required=False, default=""),
-        'elevation_in_meters': fields.String(required=False, default=""),
-        'continent': fields.String(required=False, default=""),
-        'abbreviation': fields.String(required=False, default=""),
-        'location': fields.String(required=False, default=""),
-        'iso': fields.Integer(required=False, default=""),
-        'capital_city': fields.String(required=False, default=""),
-        'lat': fields.String(required=False, default=""),
-        'long': fields.String(required=False, default=""),
-        'updated': fields.String(required=False, default="")
+        'country': fields.String(required=False, allow_none=True),
+        'population': fields.Integer(required=False, allow_none=True),
+        'sq_km_area': fields.Integer(required=False, allow_none=True),
+        'life_expectancy': fields.String(required=False, allow_none=True),
+        'elevation_in_meters': fields.String(required=False, allow_none=True),
+        'continent': fields.String(required=False, allow_none=True),
+        'abbreviation': fields.String(required=False, allow_none=True),
+        'location': fields.String(required=False, allow_none=True),
+        'iso': fields.Integer(required=False, allow_none=True),
+        'capital_city': fields.String(required=False, allow_none=True),
+        'lat': fields.String(required=False, allow_none=True),
+        'long': fields.String(required=False, allow_none=True),
+        'updated': fields.String(required=False, allow_none=True)
     }
 )
 
@@ -33,19 +32,19 @@ country_update_params = api.model(
         'recovered': fields.Integer(required=True, min=0),
         'deaths': fields.Integer(required=True, min=0),
         'confirmed': fields.Integer(required=True, min=0),
-        'country': fields.String(required=False, default=""),
-        'population': fields.Integer(required=False, default=""),
-        'sq_km_area': fields.Integer(required=False, default=""),
-        'life_expectancy': fields.String(required=False, default=""),
-        'elevation_in_meters': fields.String(required=False, default=""),
-        'continent': fields.String(required=False, default=""),
-        'abbreviation': fields.String(required=False, default=""),
-        'location': fields.String(required=False, default=""),
-        'iso': fields.Integer(required=False, default=""),
-        'capital_city': fields.String(required=False, default=""),
-        'lat': fields.String(required=False, default=""),
-        'long': fields.String(required=False, default=""),
-        'updated': fields.String(required=False, default="")
+        'country': fields.String(required=False, allow_none=True),
+        'population': fields.Integer(required=False, allow_none=True),
+        'sq_km_area': fields.Integer(required=False, allow_none=True),
+        'life_expectancy': fields.String(required=False, allow_none=True),
+        'elevation_in_meters': fields.String(required=False, allow_none=True),
+        'continent': fields.String(required=False, allow_none=True),
+        'abbreviation': fields.String(required=False, allow_none=True),
+        'location': fields.String(required=False, allow_none=True),
+        'iso': fields.Integer(required=False, allow_none=True),
+        'capital_city': fields.String(required=False, allow_none=True),
+        'lat': fields.String(required=False, allow_none=True),
+        'long': fields.String(required=False, allow_none=True),
+        'updated': fields.String(required=False, allow_none=True)
     }
 )
 
