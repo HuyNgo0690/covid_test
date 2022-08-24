@@ -524,3 +524,132 @@ apps 2022-08-25 00:24:18,565 - INFO     - [main.py:37] - <Response 1828 bytes [2
 apps 2022-08-24 17:24:53,607 - INFO     - [main.py:41] - Backend server start at 2022-08-24 17:24:53.607644
 apps 2022-08-24 17:25:05,422 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/9' [GET]>
 apps 2022-08-24 17:25:05,435 - INFO     - [main.py:37] - <Response 1828 bytes [200 OK]>
+apps 2022-08-24 19:09:46,890 - INFO     - [main.py:41] - Backend server start at 2022-08-24 19:09:46.890382
+apps 2022-08-24 19:09:49,228 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/countries' [POST]>
+apps 2022-08-24 19:09:49,249 - INFO     - [main.py:37] - <Response 393 bytes [200 OK]>
+apps 2022-08-24 19:10:07,543 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/9' [PUT]>
+apps 2022-08-24 19:10:07,558 - INFO     - [main.py:37] - <Response 366 bytes [200 OK]>
+apps 2022-08-24 19:10:14,481 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/9' [GET]>
+apps 2022-08-24 19:10:14,492 - INFO     - [main.py:37] - <Response 1848 bytes [200 OK]>
+apps 2022-08-24 19:10:25,559 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/9' [PUT]>
+apps 2022-08-24 19:10:25,571 - INFO     - [main.py:37] - <Response 359 bytes [200 OK]>
+apps 2022-08-24 19:10:28,112 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/9' [GET]>
+apps 2022-08-24 19:10:28,117 - INFO     - [main.py:37] - <Response 1841 bytes [200 OK]>
+apps 2022-08-24 19:10:32,169 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/countries' [POST]>
+apps 2022-08-24 19:10:32,179 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "country_country_key"
+DETAIL:  Key (country)=(Test) already exists.
+>
+apps 2022-08-24 19:10:32,181 - INFO     - [main.py:37] - <Response 169 bytes [400 BAD REQUEST]>
+apps 2022-08-24 19:10:41,184 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/countries' [POST]>
+apps 2022-08-24 19:10:41,194 - INFO     - [main.py:37] - <Response 395 bytes [200 OK]>
+apps 2022-08-24 19:10:46,254 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/201' [GET]>
+apps 2022-08-24 19:10:46,260 - INFO     - [main.py:37] - <Response 397 bytes [200 OK]>
+apps 2022-08-24 19:10:57,528 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/' [GET]>
+apps 2022-08-24 19:10:57,543 - INFO     - [main.py:37] - <Response 3811 bytes [200 OK]>
+apps 2022-08-24 19:10:57,571 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 19:10:57,572 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 19:10:57,573 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 19:10:57,579 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:10:57,576 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:10:57,577 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:10:57,574 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 19:10:57,586 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:10:57,843 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swagger.json' [GET]>
+apps 2022-08-24 19:10:57,845 - INFO     - [main.py:37] - <Response 37 bytes [500 INTERNAL SERVER ERROR]>
+apps 2022-08-24 19:10:57,850 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/favicon-32x32.png' [GET]>
+apps 2022-08-24 19:10:57,852 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:32,376 - INFO     - [main.py:41] - Backend server start at 2022-08-24 19:14:32.376656
+apps 2022-08-24 19:14:36,388 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/201' [GET]>
+apps 2022-08-24 19:14:36,407 - INFO     - [main.py:37] - <Response 397 bytes [200 OK]>
+apps 2022-08-24 19:14:41,114 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/' [GET]>
+apps 2022-08-24 19:14:41,131 - INFO     - [main.py:37] - <Response 3811 bytes [200 OK]>
+apps 2022-08-24 19:14:41,154 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 19:14:41,155 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 19:14:41,155 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 19:14:41,156 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 19:14:41,159 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:41,161 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:41,163 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:41,165 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:41,319 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swagger.json' [GET]>
+apps 2022-08-24 19:14:41,321 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/favicon-32x32.png' [GET]>
+apps 2022-08-24 19:14:41,329 - INFO     - [main.py:37] - <Response 37 bytes [500 INTERNAL SERVER ERROR]>
+apps 2022-08-24 19:14:41,331 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:42,028 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/' [GET]>
+apps 2022-08-24 19:14:42,031 - INFO     - [main.py:37] - <Response 3811 bytes [200 OK]>
+apps 2022-08-24 19:14:42,055 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 19:14:42,057 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 19:14:42,058 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 19:14:42,058 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 19:14:42,060 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:42,062 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:42,064 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:42,065 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:42,208 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swagger.json' [GET]>
+apps 2022-08-24 19:14:42,210 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/favicon-32x32.png' [GET]>
+apps 2022-08-24 19:14:42,212 - INFO     - [main.py:37] - <Response 37 bytes [500 INTERNAL SERVER ERROR]>
+apps 2022-08-24 19:14:42,216 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:42,871 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/' [GET]>
+apps 2022-08-24 19:14:42,874 - INFO     - [main.py:37] - <Response 3811 bytes [200 OK]>
+apps 2022-08-24 19:14:42,898 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 19:14:42,900 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 19:14:42,900 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 19:14:42,901 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 19:14:42,902 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:42,904 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:42,906 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:42,907 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:43,020 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swagger.json' [GET]>
+apps 2022-08-24 19:14:43,022 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/favicon-32x32.png' [GET]>
+apps 2022-08-24 19:14:43,025 - INFO     - [main.py:37] - <Response 37 bytes [500 INTERNAL SERVER ERROR]>
+apps 2022-08-24 19:14:43,030 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:43,241 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/' [GET]>
+apps 2022-08-24 19:14:43,244 - INFO     - [main.py:37] - <Response 3811 bytes [200 OK]>
+apps 2022-08-24 19:14:43,266 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 19:14:43,269 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 19:14:43,270 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 19:14:43,271 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:43,272 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 19:14:43,274 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:43,275 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:43,278 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:14:43,371 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swagger.json' [GET]>
+apps 2022-08-24 19:14:43,373 - INFO     - [main.py:37] - <Response 37 bytes [500 INTERNAL SERVER ERROR]>
+apps 2022-08-24 19:14:43,375 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/favicon-32x32.png' [GET]>
+apps 2022-08-24 19:14:43,378 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:16:04,641 - INFO     - [main.py:41] - Backend server start at 2022-08-24 19:16:04.641878
+apps 2022-08-24 19:16:13,776 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/countries' [POST]>
+apps 2022-08-24 19:16:13,790 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "country_country_key"
+DETAIL:  Key (country)=(Test 1) already exists.
+>
+apps 2022-08-24 19:16:13,792 - INFO     - [main.py:37] - <Response 171 bytes [400 BAD REQUEST]>
+apps 2022-08-24 19:16:19,979 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/countries' [POST]>
+apps 2022-08-24 19:16:19,996 - INFO     - [main.py:37] - <Response 395 bytes [200 OK]>
+apps 2022-08-24 19:16:26,879 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/201' [GET]>
+apps 2022-08-24 19:16:26,887 - INFO     - [main.py:37] - <Response 397 bytes [200 OK]>
+apps 2022-08-24 19:16:54,665 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/201' [PUT]>
+apps 2022-08-24 19:16:54,688 - INFO     - [main.py:37] - <Response 395 bytes [200 OK]>
+apps 2022-08-24 19:17:07,132 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/countries' [POST]>
+apps 2022-08-24 19:17:07,138 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "country_country_key"
+DETAIL:  Key (country)=(Test 1) already exists.
+>
+apps 2022-08-24 19:17:07,140 - INFO     - [main.py:37] - <Response 171 bytes [400 BAD REQUEST]>
+apps 2022-08-24 19:17:15,784 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/201' [PUT]>
+apps 2022-08-24 19:17:15,794 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "country_country_key"
+DETAIL:  Key (country)=(Test 2) already exists.
+>
+apps 2022-08-24 19:17:15,797 - INFO     - [main.py:37] - <Response 171 bytes [400 BAD REQUEST]>
+apps 2022-08-24 19:17:23,895 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/' [GET]>
+apps 2022-08-24 19:17:23,916 - INFO     - [main.py:37] - <Response 3811 bytes [200 OK]>
+apps 2022-08-24 19:17:23,941 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 19:17:23,943 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 19:17:23,944 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 19:17:23,945 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 19:17:23,947 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:17:23,950 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:17:23,951 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:17:23,953 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:17:24,091 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swagger.json' [GET]>
+apps 2022-08-24 19:17:24,095 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/swaggerui/favicon-32x32.png' [GET]>
+apps 2022-08-24 19:17:24,103 - INFO     - [main.py:37] - <Response likely-streamed [304 NOT MODIFIED]>
+apps 2022-08-24 19:17:24,100 - INFO     - [main.py:37] - <Response 5673 bytes [200 OK]>
