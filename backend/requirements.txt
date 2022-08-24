@@ -32,3 +32,4 @@ waitress==2.1.2
 Werkzeug==2.1.2
 yarg==0.1.9
 zipp==3.8.1
+marshmallow==3.17.1

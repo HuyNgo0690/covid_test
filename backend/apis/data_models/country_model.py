@@ -1,42 +1,29 @@
+from flask_restx import fields
+from sqlalchemy import inspect
+
 from apis import db, api
 from apis.data_models.base import BaseMode
-from flask_restx import fields
-
-country_details = api.model(
-    'Country',
-    {
-        'id': fields.Integer(),
-        'recovered': fields.String(required=True),
-        'deaths': fields.String(required=True),
-        'confirmed': fields.String(required=True),
-        'region': fields.Integer(required=False),
-        'country': fields.String(required=True),
-        'population': fields.String(required=True),
-        'sq_km_area': fields.String(required=True),
-        'life_expectancy': fields.String(required=True),
-        'elevation_in_meters': fields.String(required=True),
-        'continent': fields.String(required=True),
-        'abbreviation': fields.String(required=True),
-        'location': fields.String(required=True),
-        'iso': fields.String(required=True),
-        'capital_city': fields.String(required=True),
-        'lat': fields.String(required=True),
-        'long': fields.String(required=True),
-        'updated': fields.String(required=True)
-    }
-)
 
 country = api.model(
     'Country',
     {
         'id': fields.Integer(),
-        'recovered': fields.String(required=True),
-        'deaths': fields.String(required=True),
-        'confirmed': fields.String(required=True),
-        'country': fields.String(required=True),
-        'population': fields.String(required=True),
-        'capital_city': fields.String(required=True),
-        'updated': fields.String(required=True)
+        'recovered': fields.Integer(required=True, min=0),
+        'deaths': fields.Integer(required=True, min=0),
+        'confirmed': fields.Integer(required=True, min=0),
+        'country': fields.String(required=False),
+        'population': fields.Integer(required=False),
+        'sq_km_area': fields.Integer(required=False),
+        'life_expectancy': fields.String(required=False),
+        'elevation_in_meters': fields.String(required=False),
+        'continent': fields.String(required=False),
+        'abbreviation': fields.String(required=False),
+        'location': fields.String(required=False),
+        'iso': fields.Integer(required=False),
+        'capital_city': fields.String(required=False),
+        'lat': fields.String(required=False),
+        'long': fields.String(required=False),
+        'updated': fields.String(required=False)
     }
 )
 

@@ -245,3 +245,282 @@ apps 2022-08-24 17:12:42,012 - INFO     - [middleware.py:18] - <Request 'http://
 apps 2022-08-24 17:12:42,020 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-bundle.js' [GET]>
 apps 2022-08-24 17:12:42,032 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
 apps 2022-08-24 17:12:42,352 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swagger.json' [GET]>
+apps 2022-08-24 12:55:11,766 - INFO     - [main.py:31] - Backend server start at 2022-08-24 12:55:11.766037
+apps 2022-08-24 12:55:13,824 - INFO     - [main.py:31] - Backend server start at 2022-08-24 12:55:13.824684
+apps 2022-08-24 20:17:58,637 - INFO     - [main.py:34] - Backend server start at 2022-08-24 20:17:58.636997
+apps 2022-08-24 20:18:03,470 - INFO     - [main.py:34] - Backend server start at 2022-08-24 20:18:03.470312
+apps 2022-08-24 20:18:03,820 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/' [GET]>
+apps 2022-08-24 20:18:04,289 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 20:18:04,308 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 20:18:04,329 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 20:18:04,349 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 20:18:05,334 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swagger.json' [GET]>
+apps 2022-08-24 20:19:20,742 - INFO     - [main.py:34] - Backend server start at 2022-08-24 20:19:20.742173
+apps 2022-08-24 20:19:20,851 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/' [GET]>
+apps 2022-08-24 20:19:21,257 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 20:19:21,265 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 20:19:21,271 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 20:19:21,281 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 20:19:21,960 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swagger.json' [GET]>
+apps 2022-08-24 21:03:40,855 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:03:40.853904
+apps 2022-08-24 21:03:46,028 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:03:46.028092
+apps 2022-08-24 21:03:47,341 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/' [GET]>
+apps 2022-08-24 21:03:47,796 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 21:03:47,829 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 21:03:47,869 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 21:03:47,899 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 21:03:48,630 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swagger.json' [GET]>
+apps 2022-08-24 21:05:18,588 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:05:18.588179
+apps 2022-08-24 21:05:18,698 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/' [GET]>
+apps 2022-08-24 21:05:19,033 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 21:05:19,056 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 21:05:19,063 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 21:05:19,080 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 21:05:19,560 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swagger.json' [GET]>
+apps 2022-08-24 21:06:33,891 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:06:33.891467
+apps 2022-08-24 21:06:37,502 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:06:37.502441
+apps 2022-08-24 21:06:37,664 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/' [GET]>
+apps 2022-08-24 21:06:37,978 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 21:06:37,988 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 21:06:37,993 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 21:06:38,034 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 21:06:38,820 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/favicon-16x16.png' [GET]>
+apps 2022-08-24 21:06:38,922 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swagger.json' [GET]>
+apps 2022-08-24 21:07:01,487 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:07:01.487762
+apps 2022-08-24 21:07:01,663 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/' [GET]>
+apps 2022-08-24 21:07:02,070 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 21:07:02,076 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 21:07:02,086 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 21:07:02,093 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 21:07:03,220 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swagger.json' [GET]>
+apps 2022-08-24 21:07:52,010 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:07:52.009898
+apps 2022-08-24 21:11:15,839 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:11:15.839269
+apps 2022-08-24 21:11:35,745 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/' [GET]>
+apps 2022-08-24 21:11:36,217 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 21:11:36,224 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 21:11:36,232 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 21:11:36,269 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 21:11:37,067 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swagger.json' [GET]>
+apps 2022-08-24 21:19:04,991 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:19:04.991192
+apps 2022-08-24 21:19:51,257 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:19:51.257861
+apps 2022-08-24 21:19:52,252 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:19:52.252609
+apps 2022-08-24 21:20:05,746 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:20:05.745954
+apps 2022-08-24 21:20:08,498 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/' [GET]>
+apps 2022-08-24 21:20:08,571 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/droid-sans.css' [GET]>
+apps 2022-08-24 21:20:08,576 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui.css' [GET]>
+apps 2022-08-24 21:20:08,579 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-bundle.js' [GET]>
+apps 2022-08-24 21:20:08,580 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swaggerui/swagger-ui-standalone-preset.js' [GET]>
+apps 2022-08-24 21:20:08,796 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/swagger.json' [GET]>
+apps 2022-08-24 21:20:58,093 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:20:58.093473
+apps 2022-08-24 21:21:01,348 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:21:01.348211
+apps 2022-08-24 21:21:05,600 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:21:05.600803
+apps 2022-08-24 21:21:35,410 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:21:35.410123
+apps 2022-08-24 21:22:30,765 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:22:30.765701
+apps 2022-08-24 21:29:40,467 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:29:40.467860
+apps 2022-08-24 21:29:41,446 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:29:41.446705
+apps 2022-08-24 21:31:22,901 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:31:22.901728
+apps 2022-08-24 21:31:29,068 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region' [GET]>
+apps 2022-08-24 21:33:16,325 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region/387' [PUT]>
+apps 2022-08-24 21:33:16,327 - WARNING  - [error_handler.py:14] - <filter() got an unexpected keyword argument 'id'>
+apps 2022-08-24 21:34:01,614 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:34:01.614137
+apps 2022-08-24 21:34:02,610 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:34:02.610099
+apps 2022-08-24 21:34:14,319 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region/387' [PUT]>
+apps 2022-08-24 21:34:32,405 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:34:32.405505
+apps 2022-08-24 21:34:35,898 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region/387' [PUT]>
+apps 2022-08-24 21:34:57,770 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region' [GET]>
+apps 2022-08-24 14:44:03,013 - INFO     - [main.py:34] - Backend server start at 2022-08-24 14:44:03.013843
+apps 2022-08-24 14:44:03,471 - INFO     - [main.py:34] - Backend server start at 2022-08-24 14:44:03.471916
+apps 2022-08-24 21:44:14,406 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:44:14.406036
+apps 2022-08-24 21:44:15,466 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:44:15.466350
+apps 2022-08-24 21:44:40,527 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region' [POST]>
+apps 2022-08-24 21:44:40,543 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.ForeignKeyViolation) insert or update on table "region" violates foreign key constraint "region_country_id_fkey"
+DETAIL:  Key (country_id)=(145) is not present in table "country".
+>
+apps 2022-08-24 21:45:22,957 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 21:46:21,762 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:46:21.762299
+apps 2022-08-24 21:46:22,410 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 21:46:31,098 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:46:31.098073
+apps 2022-08-24 21:46:32,408 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:46:32.407946
+apps 2022-08-24 21:46:36,063 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 21:47:49,228 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:47:49.228712
+apps 2022-08-24 21:47:50,305 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:47:50.305682
+apps 2022-08-24 21:47:51,741 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 21:57:13,958 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:57:13.958495
+apps 2022-08-24 21:57:15,776 - INFO     - [main.py:34] - Backend server start at 2022-08-24 21:57:15.776508
+apps 2022-08-24 21:57:34,004 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region/387' [GET]>
+apps 2022-08-24 21:57:59,037 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region/387' [GET]>
+apps 2022-08-24 21:58:31,348 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 21:58:34,087 - WARNING  - [error_handler.py:14] - <Expecting value: line 1 column 1 (char 0)>
+apps 2022-08-24 21:59:00,475 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 21:59:15,889 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 21:59:23,372 - WARNING  - [error_handler.py:14] - <Expecting value: line 1 column 1 (char 0)>
+apps 2022-08-24 21:59:31,508 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region/387' [GET]>
+apps 2022-08-24 21:59:55,204 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region' [GET]>
+apps 2022-08-24 22:00:05,755 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/145/region/388' [GET]>
+apps 2022-08-24 15:01:28,397 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:01:28.397810
+apps 2022-08-24 15:01:29,194 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:01:29.194564
+apps 2022-08-24 15:02:29,567 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:02:29.567783
+apps 2022-08-24 15:03:36,968 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:03:36.968915
+apps 2022-08-24 15:04:39,067 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:04:39.067687
+apps 2022-08-24 15:04:39,870 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:04:39.870931
+apps 2022-08-24 15:05:09,399 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:05:09.399135
+apps 2022-08-24 15:06:48,230 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:06:48.230949
+apps 2022-08-24 15:06:48,981 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:06:48.981142
+apps 2022-08-24 15:08:04,075 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:08:04.075876
+apps 2022-08-24 22:26:22,414 - INFO     - [main.py:34] - Backend server start at 2022-08-24 22:26:22.414344
+apps 2022-08-24 15:27:40,443 - INFO     - [main.py:34] - Backend server start at 2022-08-24 15:27:40.443006
+apps 2022-08-24 15:27:50,600 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/145/region/388' [GET]>
+apps 2022-08-24 15:28:07,430 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country' [GET]>
+apps 2022-08-24 15:28:14,971 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/countries' [GET]>
+apps 2022-08-24 22:40:07,025 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:40:07.025688
+apps 2022-08-24 22:40:13,585 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/countries' [GET]>
+apps 2022-08-24 22:40:13,614 - INFO     - [main.py:37] - <Response 37 bytes [500 INTERNAL SERVER ERROR]>
+apps 2022-08-24 22:40:33,846 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:40:33.846563
+apps 2022-08-24 22:40:34,754 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:40:34.754479
+apps 2022-08-24 22:40:39,730 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/countries' [GET]>
+apps 2022-08-24 22:42:39,149 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:42:39.148969
+apps 2022-08-24 22:42:40,123 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:42:40.123537
+apps 2022-08-24 22:42:41,766 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/countries' [GET]>
+apps 2022-08-24 22:44:38,663 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:44:38.663887
+apps 2022-08-24 22:44:55,054 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:44:55.054208
+apps 2022-08-24 22:45:01,351 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:45:01.351573
+apps 2022-08-24 15:45:40,649 - INFO     - [main.py:41] - Backend server start at 2022-08-24 15:45:40.649700
+apps 2022-08-24 22:46:39,094 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:46:39.094889
+apps 2022-08-24 15:46:52,143 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/init_data' [POST]>
+apps 2022-08-24 15:46:52,153 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type double precision: "1,996"
+LINE 1: ...ES ('Andorra', 0, 18815, 133, 76965, 468, '83.5', '1,996', '...
+                                                             ^
+>
+apps 2022-08-24 15:46:52,154 - INFO     - [main.py:37] - <Response 259 bytes [400 BAD REQUEST]>
+apps 2022-08-24 22:48:08,060 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 22:50:17,385 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:50:17.385593
+apps 2022-08-24 22:50:30,702 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:50:30.702041
+apps 2022-08-24 22:51:40,195 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 22:51:44,168 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type double precision: "1,996"
+LINE 1: ...ES ('Andorra', 0, 18815, 133, 76965, 468, '83.5', '1,996', '...
+                                                             ^
+>
+apps 2022-08-24 22:51:44,171 - INFO     - [main.py:37] - <Response 259 bytes [400 BAD REQUEST]>
+apps 2022-08-24 22:54:42,069 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:54:42.069060
+apps 2022-08-24 22:54:44,052 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 22:54:44,073 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type numeric: "1,996"
+LINE 1: ...ES ('Andorra', 0, 18815, 133, 76965, 468, '83.5', '1,996', '...
+                                                             ^
+>
+apps 2022-08-24 22:54:44,075 - INFO     - [main.py:37] - <Response 250 bytes [400 BAD REQUEST]>
+apps 2022-08-24 22:54:49,939 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:54:49.939636
+apps 2022-08-24 22:55:21,194 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 22:55:21,219 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type numeric: "1,996"
+LINE 1: ...ES ('Andorra', 0, 18815, 133, 76965, 468, '83.5', '1,996', '...
+                                                             ^
+>
+apps 2022-08-24 22:55:21,220 - INFO     - [main.py:37] - <Response 250 bytes [400 BAD REQUEST]>
+apps 2022-08-24 22:55:24,166 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 22:55:24,180 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type numeric: "1,996"
+LINE 1: ...ES ('Andorra', 0, 18815, 133, 76965, 468, '83.5', '1,996', '...
+                                                             ^
+>
+apps 2022-08-24 22:55:24,181 - INFO     - [main.py:37] - <Response 250 bytes [400 BAD REQUEST]>
+apps 2022-08-24 22:56:07,043 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 22:56:41,647 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 22:57:17,671 - INFO     - [main.py:41] - Backend server start at 2022-08-24 22:57:17.671506
+apps 2022-08-24 22:57:18,205 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/init_data' [POST]>
+apps 2022-08-24 22:59:44,440 - WARNING  - [error_handler.py:14] - <(psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type numeric: "1,996"
+LINE 1: ...ES ('Andorra', 0, 18815, 133, 76965, 468, '83.5', '1,996', '...
+                                                             ^
+>
+apps 2022-08-24 22:59:44,442 - INFO     - [main.py:37] - <Response 250 bytes [400 BAD REQUEST]>
+apps 2022-08-24 16:00:30,587 - INFO     - [main.py:41] - Backend server start at 2022-08-24 16:00:30.587690
+apps 2022-08-24 16:00:51,264 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/init_data' [POST]>
+apps 2022-08-24 16:00:51,527 - INFO     - [main.py:37] - <Response 20 bytes [200 OK]>
+apps 2022-08-24 16:00:59,623 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/countries' [GET]>
+apps 2022-08-24 16:00:59,646 - INFO     - [main.py:37] - <Response 76929 bytes [200 OK]>
+apps 2022-08-24 16:06:39,574 - INFO     - [main.py:41] - Backend server start at 2022-08-24 16:06:39.574187
+apps 2022-08-24 16:08:49,275 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/init_data' [POST]>
+apps 2022-08-24 16:08:49,537 - INFO     - [main.py:37] - <Response 20 bytes [200 OK]>
+apps 2022-08-24 16:08:53,656 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/countries' [GET]>
+apps 2022-08-24 16:08:53,680 - INFO     - [main.py:37] - <Response 76929 bytes [200 OK]>
+apps 2022-08-24 23:09:06,927 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/16' [GET]>
+apps 2022-08-24 23:09:10,473 - WARNING  - [error_handler.py:14] - <(psycopg2.OperationalError) terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+>
+apps 2022-08-24 23:09:10,475 - INFO     - [main.py:37] - <Response 239 bytes [400 BAD REQUEST]>
+apps 2022-08-24 16:09:22,089 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/16' [GET]>
+apps 2022-08-24 16:09:22,093 - INFO     - [main.py:37] - <Response 401 bytes [200 OK]>
+apps 2022-08-24 16:10:03,622 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/16' [GET]>
+apps 2022-08-24 16:10:03,626 - INFO     - [main.py:37] - <Response 401 bytes [200 OK]>
+apps 2022-08-24 16:10:16,274 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/16' [PUT]>
+apps 2022-08-24 16:10:16,281 - INFO     - [main.py:37] - <Response 102 bytes [400 BAD REQUEST]>
+apps 2022-08-24 16:11:09,875 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/16' [PUT]>
+apps 2022-08-24 16:11:09,883 - INFO     - [main.py:37] - <Response 399 bytes [200 OK]>
+apps 2022-08-24 16:12:49,500 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/16' [GET]>
+apps 2022-08-24 16:12:49,502 - INFO     - [main.py:37] - <Response 399 bytes [200 OK]>
+apps 2022-08-24 16:13:51,740 - INFO     - [main.py:41] - Backend server start at 2022-08-24 16:13:51.740302
+apps 2022-08-24 16:13:55,266 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/16' [GET]>
+apps 2022-08-24 16:13:55,275 - INFO     - [main.py:37] - <Response 383 bytes [200 OK]>
+apps 2022-08-24 23:18:24,664 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/16' [GET]>
+apps 2022-08-24 23:18:24,676 - WARNING  - [error_handler.py:14] - <Unknown PG numeric type: 1043>
+apps 2022-08-24 23:18:24,678 - INFO     - [main.py:37] - <Response 45 bytes [400 BAD REQUEST]>
+apps 2022-08-24 23:18:57,489 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/16' [GET]>
+apps 2022-08-24 23:21:05,244 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:21:05.244706
+apps 2022-08-24 23:21:08,517 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/16' [GET]>
+apps 2022-08-24 23:22:22,307 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:22:22.307101
+apps 2022-08-24 23:22:30,117 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9999999999999' [GET]>
+apps 2022-08-24 23:22:33,672 - INFO     - [main.py:37] - <Response 33 bytes [400 BAD REQUEST]>
+apps 2022-08-24 23:22:46,202 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/16' [GET]>
+apps 2022-08-24 23:24:24,082 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/countries/search?country_name=Austr' [GET]>
+apps 2022-08-24 23:24:24,104 - INFO     - [main.py:37] - <Response 752 bytes [200 OK]>
+apps 2022-08-24 23:24:32,819 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:32:16,043 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:32:16.043108
+apps 2022-08-24 23:32:18,891 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:38:30,344 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:38:30.344130
+apps 2022-08-24 23:38:33,299 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:39:05,062 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:39:05.062368
+apps 2022-08-24 23:39:08,132 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:45:53,909 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:45:53.909080
+apps 2022-08-24 23:45:57,759 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:47:41,561 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:47:41.561793
+apps 2022-08-24 23:47:44,136 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:48:01,034 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:48:17,387 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:48:17.387164
+apps 2022-08-24 23:48:19,158 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:48:43,677 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:48:43.677813
+apps 2022-08-24 23:48:48,367 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:49:10,756 - WARNING  - [error_handler.py:14] - <maximum recursion depth exceeded in comparison>
+apps 2022-08-24 23:49:10,757 - INFO     - [main.py:37] - <Response 62 bytes [400 BAD REQUEST]>
+apps 2022-08-24 23:50:41,180 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:50:41.180662
+apps 2022-08-24 23:50:45,276 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:51:48,652 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:51:48.652392
+apps 2022-08-24 23:51:53,557 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:53:32,310 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:53:32.310008
+apps 2022-08-24 23:53:35,047 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:54:01,056 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:54:01.056497
+apps 2022-08-24 23:54:04,615 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:56:51,745 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:56:51.745387
+apps 2022-08-24 23:56:58,128 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:57:14,319 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:57:14.319521
+apps 2022-08-24 23:57:18,612 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-24 23:57:41,873 - INFO     - [main.py:41] - Backend server start at 2022-08-24 23:57:41.873654
+apps 2022-08-24 23:57:43,803 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-25 00:02:46,082 - INFO     - [main.py:41] - Backend server start at 2022-08-25 00:02:46.082497
+apps 2022-08-25 00:02:51,960 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-25 00:03:43,094 - INFO     - [main.py:41] - Backend server start at 2022-08-25 00:03:43.094566
+apps 2022-08-25 00:03:45,947 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-25 00:06:13,940 - INFO     - [main.py:41] - Backend server start at 2022-08-25 00:06:13.940064
+apps 2022-08-25 00:06:15,202 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-25 00:07:12,578 - INFO     - [main.py:41] - Backend server start at 2022-08-25 00:07:12.578424
+apps 2022-08-25 00:07:15,510 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-25 00:15:22,062 - INFO     - [main.py:41] - Backend server start at 2022-08-25 00:15:22.062074
+apps 2022-08-25 00:15:27,463 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-25 00:19:53,489 - INFO     - [main.py:41] - Backend server start at 2022-08-25 00:19:53.489304
+apps 2022-08-25 00:20:07,807 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-25 00:22:42,981 - INFO     - [main.py:41] - Backend server start at 2022-08-25 00:22:42.981797
+apps 2022-08-25 00:22:46,213 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-25 00:24:07,447 - INFO     - [main.py:41] - Backend server start at 2022-08-25 00:24:07.446944
+apps 2022-08-25 00:24:10,770 - INFO     - [middleware.py:18] - <Request 'http://localhost:5001/country/9' [GET]>
+apps 2022-08-25 00:24:18,565 - INFO     - [main.py:37] - <Response 1828 bytes [200 OK]>
+apps 2022-08-24 17:24:53,607 - INFO     - [main.py:41] - Backend server start at 2022-08-24 17:24:53.607644
+apps 2022-08-24 17:25:05,422 - INFO     - [middleware.py:18] - <Request 'http://localhost:3001/country/9' [GET]>
+apps 2022-08-24 17:25:05,435 - INFO     - [main.py:37] - <Response 1828 bytes [200 OK]>

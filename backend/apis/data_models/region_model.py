@@ -6,14 +6,14 @@ region_params = api.model(
     'Region',
     {
         'id': fields.Integer(),
-        'region': fields.String(required=True),
-        'recovered': fields.String(required=True),
-        'deaths': fields.String(required=True),
-        'confirmed': fields.String(required=True),
+        'region': fields.String(required=False),
+        'recovered': fields.Integer(required=True),
+        'deaths': fields.Integer(required=True),
+        'confirmed': fields.Integer(required=True),
         'country_id': fields.Integer(),
-        'lat': fields.String(required=True),
-        'long': fields.String(required=True),
-        'updated': fields.String(required=True)
+        'lat': fields.String(required=False),
+        'long': fields.String(required=False),
+        'updated': fields.String(required=False)
     }
 )
 

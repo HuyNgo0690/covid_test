@@ -1,18 +1,21 @@
 import json
 
-from flask_restx import Resource, abort
+from flask import request
+from flask_restx import Resource
 
-from apis import db
+from apis import db, api
 from apis.data_models.country_model import CountryModel
 from apis.data_models.region_model import RegionModel
 from error_handler import HandleExceptions
 
 
 class DataInit(Resource):
+    @api.doc(body={"data": "File json"})
     def post(self):
+        """Init data by file"""
         try:
-            file = open("./covid-stats.json")
-            data = json.load(file)
+            data = request.get_data().decode('utf8')
+            data = json.loads(data)
             for key, value in data.items():
                 country_details = value.pop("All")
                 country_details["country"] = key
