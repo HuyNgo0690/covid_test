@@ -10,6 +10,7 @@ cd <your_repo_dir>
 docker-compose up -d --build
 ```
 After the process is finished, open browser and go to localhost:3001. This is a Swagger, which will show API Documentation. </br>
+Use postman to run API. </br>
 To initialize data in database. Use API: 
 
-localhost:3001/init_db -> Body will be binary, which you can select json file. I handle following sample json format.
+> localhost:3001/init_db -> Body will be a file, which you can select json file(Ex: covid-stats.json).
